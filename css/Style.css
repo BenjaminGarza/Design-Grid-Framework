@@ -681,7 +681,7 @@ a.button {
 }
 
 .button-secondary {
-  background-color: maroon;
+  background-color: #ce973e;
 }
 
 header {
@@ -694,5 +694,32 @@ li a {
 
 .how-it-works img {
   height: 165px;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.language-icon-padding-margin {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 18px;
+  margin: 18px;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+.background-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.stories-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=Style.css.map */
