@@ -8,7 +8,12 @@ $sizes: (
 );
 
 .container {
-  max-width: map-get($sizes, 'md');
+  max-width: map-get($sizes, 'lg');
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid{
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
