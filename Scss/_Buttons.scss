@@ -1,0 +1,25 @@
+%button {
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+a {
+  &.button {
+    color: white;
+    text-decoration: none;
+  }
+}
+.button {
+  @extend %button;
+}
+
+.button-primary {
+  @extend %button;
+  background-color: lightseagreen;
+}
+
+.button-secondary {
+  @extend %button;
+  background-color: maroon;
+}
