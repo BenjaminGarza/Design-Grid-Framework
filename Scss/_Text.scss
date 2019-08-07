@@ -18,6 +18,10 @@
   text-transform: uppercase;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 @for $i from 1 through 3 {
   .display-#{$i} {
     font-size: #{$i + $i / 4}rem;
