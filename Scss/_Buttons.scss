@@ -1,7 +1,7 @@
 %button {
-  padding: 1rem;
+  padding: 1rem 3rem;
   border-radius: 4px;
-  border: 1px solid black;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -16,7 +16,7 @@ a {
 
 .button-primary {
   @extend %button;
-  background-color: lightseagreen;
+  background-color: $tertiary-color;
 }
 
 .button-secondary {

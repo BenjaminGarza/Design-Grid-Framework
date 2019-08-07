@@ -11,6 +11,10 @@
   justify-self: end;
 }
 
+.bg-secondary {
+  background-color: $bg-color;
+}
+
 @for $i from 1 through 5 {
   .m-#{$i} {
     margin: #{$i}rem;

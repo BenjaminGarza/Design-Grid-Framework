@@ -8,8 +8,14 @@
 header {
   height: 94px;
 }
-li{
- a{
-  color: $li-color;
- }
+li {
+  a {
+    color: $secondary-color;
+  }
+}
+
+.how-it-works {
+  img {
+    height: 165px;
+  }
 }

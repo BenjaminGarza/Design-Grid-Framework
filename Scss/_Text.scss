@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 @for $i from 1 through 3 {
   .display-#{$i} {
     font-size: #{$i + $i / 4}rem;
