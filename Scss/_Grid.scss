@@ -1,0 +1,37 @@
+$columns: 12;
+$grid-colum-gap: 20px;
+$grid-row-gap: 20px;
+
+$sizes: (
+  md: 720px,
+  lg: 1024px,
+);
+
+.container {
+  max-width: map-get($sizes, 'md');
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: $grid-colum-gap;
+  grid-row-gap: $grid-row-gap;
+}
+
+@for $i from 1 through $columns {
+  .col-#{$i} {
+    grid-column: span $i;
+  }
+}
+
+@each $size, $value in $sizes {
+  @media (min-width: $value) {
+    @for $i from 1 through $columns {
+      .col-#{$size}-#{$i} {
+        grid-column: span $i;
+      }
+    }
+  }
+}

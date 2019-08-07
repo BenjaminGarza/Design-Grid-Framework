@@ -1,1 +1,11 @@
-@import "_CssReset"
+@import '_CssReset';
+@import 'Variables';
+@import 'Grid';
+
+.row {
+  > div {
+    background-color: lightblue;
+    height: 32px;
+    border: 1px solid red;
+  }
+}
