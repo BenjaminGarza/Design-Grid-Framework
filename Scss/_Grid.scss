@@ -29,6 +29,9 @@ $sizes: (
   .col-#{$i} {
     grid-column: span $i;
   }
+  .col-offset-#{$i} {
+    margin-left: 100% / $columns * $i;
+  }
 }
 
 @each $size, $value in $sizes {

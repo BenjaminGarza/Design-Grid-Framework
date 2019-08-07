@@ -43,6 +43,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1024px;
   margin-right: auto;
@@ -68,48 +72,96 @@ table {
   grid-column: span 1;
 }
 
+.col-offset-1 {
+  margin-left: 8.33333%;
+}
+
 .col-2 {
   grid-column: span 2;
+}
+
+.col-offset-2 {
+  margin-left: 16.66667%;
 }
 
 .col-3 {
   grid-column: span 3;
 }
 
+.col-offset-3 {
+  margin-left: 25%;
+}
+
 .col-4 {
   grid-column: span 4;
+}
+
+.col-offset-4 {
+  margin-left: 33.33333%;
 }
 
 .col-5 {
   grid-column: span 5;
 }
 
+.col-offset-5 {
+  margin-left: 41.66667%;
+}
+
 .col-6 {
   grid-column: span 6;
+}
+
+.col-offset-6 {
+  margin-left: 50%;
 }
 
 .col-7 {
   grid-column: span 7;
 }
 
+.col-offset-7 {
+  margin-left: 58.33333%;
+}
+
 .col-8 {
   grid-column: span 8;
+}
+
+.col-offset-8 {
+  margin-left: 66.66667%;
 }
 
 .col-9 {
   grid-column: span 9;
 }
 
+.col-offset-9 {
+  margin-left: 75%;
+}
+
 .col-10 {
   grid-column: span 10;
+}
+
+.col-offset-10 {
+  margin-left: 83.33333%;
 }
 
 .col-11 {
   grid-column: span 11;
 }
 
+.col-offset-11 {
+  margin-left: 91.66667%;
+}
+
 .col-12 {
   grid-column: span 12;
+}
+
+.col-offset-12 {
+  margin-left: 100%;
 }
 
 @media (min-width: 720px) {
@@ -429,8 +481,8 @@ table {
   border-top: 2px solid lightgray;
 }
 
-.border-botttom {
-  border-botttom: 2px solid lightgray;
+.border-bottom {
+  border-bottom: 2px solid lightgray;
 }
 
 .text-center {
@@ -470,5 +522,9 @@ a.button {
 
 header {
   height: 94px;
+}
+
+li a {
+  color: rgba(74, 74, 74, 0.7);
 }
 /*# sourceMappingURL=Style.css.map */
