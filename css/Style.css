@@ -500,6 +500,18 @@ a {
       justify-self: end;
 }
 
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.justify-content-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .bg-secondary {
   background-color: #f3f3f3;
 }
@@ -760,6 +772,10 @@ a {
   font-size: 3.75rem;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .button, .button-primary, .button-secondary {
   padding: 1rem 3rem;
   border-radius: 4px;
@@ -835,6 +851,16 @@ footer img {
 @media (min-width: 1024px) {
   .primary-menu {
     display: block;
+  }
+}
+
+.hamburger-menu {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .hamburger-menu {
+    display: none;
   }
 }
 /*# sourceMappingURL=Style.css.map */

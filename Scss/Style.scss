@@ -56,3 +56,10 @@ footer {
     display: block;
   }
 }
+.hamburger-menu {
+  display: block;
+  @media (min-width: map-get($sizes, 'lg')) {
+    
+    display: none;
+  }
+}

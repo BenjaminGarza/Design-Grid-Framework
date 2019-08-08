@@ -2,10 +2,6 @@ $columns: 12;
 $grid-colum-gap: 20px;
 $grid-row-gap: 20px;
 
-$sizes: (
-  md: 720px,
-  lg: 1024px,
-);
 
 .container {
   max-width: map-get($sizes, 'lg');

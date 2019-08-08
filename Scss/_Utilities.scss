@@ -10,7 +10,12 @@
 .justify-self-end {
   justify-self: end;
 }
-
+.justify-content-end{
+  justify-content: end;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
 .bg-secondary {
   background-color: $bg-color;
 }
