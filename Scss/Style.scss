@@ -52,14 +52,18 @@ footer {
 
 .primary-menu {
   display: none;
-  @media (min-width: map-get($sizes, 'lg')) {
-    display: block;
-  }
+ 
 }
 .hamburger-menu {
   display: block;
-  @media (min-width: map-get($sizes, 'lg')) {
-    
+ 
+}
+
+@media (min-width: map-get($sizes, 'lg')) {
+  .primary-menu{
+    display: block;
+  }
+  .hamburger-menu {
     display: none;
   }
 }

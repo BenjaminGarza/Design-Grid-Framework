@@ -848,17 +848,14 @@ footer img {
   display: none;
 }
 
-@media (min-width: 1124px) {
-  .primary-menu {
-    display: block;
-  }
-}
-
 .hamburger-menu {
   display: block;
 }
 
 @media (min-width: 1124px) {
+  .primary-menu {
+    display: block;
+  }
   .hamburger-menu {
     display: none;
   }
