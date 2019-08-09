@@ -761,15 +761,27 @@ a {
 }
 
 .display-1 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .display-2 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .display-3 {
-  font-size: 3.75rem;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 720px) {
+  .display-sm-1 {
+    font-size: 1.5rem;
+  }
+  .display-sm-2 {
+    font-size: 1.8rem;
+  }
+  .display-sm-3 {
+    font-size: 2.5rem;
+  }
 }
 
 .text-right {
