@@ -10,17 +10,19 @@ a {
     text-decoration: none;
   }
 }
+
 .button {
   @extend %button;
 }
 
 .button-primary {
   @extend %button;
+
   background-color: $tertiary-color;
 }
 
 .button-secondary {
   @extend %button;
+
   background-color: $primary-color;
 }
-

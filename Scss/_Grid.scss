@@ -2,12 +2,12 @@ $columns: 12;
 $grid-colum-gap: 20px;
 $grid-row-gap: 20px;
 
-
 .container {
   max-width: map-get($sizes, 'lg');
   margin-right: auto;
   margin-left: auto;
 }
+
 .container-fluid {
   width: 100%;
   margin-right: auto;
@@ -23,6 +23,7 @@ $grid-row-gap: 20px;
   .col-#{$i} {
     flex: 0 0 100% / $columns * $i;
   }
+
   .col-offset-#{$i} {
     margin-left: 100% / $columns * $i;
   }
@@ -34,6 +35,7 @@ $grid-row-gap: 20px;
       .col-#{$size}-#{$i} {
         flex: 0 0 100% / $columns * $i;
       }
+
       .col-offset-#{$size}-#{$i} {
         margin-left: 100% / $columns * $i;
       }
