@@ -1,0 +1,75 @@
+@import '_CssReset';
+@import 'Variables';
+@import 'Grid';
+@import 'Utilities';
+@import 'Text';
+@import 'Buttons';
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+header {
+  height: 94px;
+}
+
+li {
+  a {
+    color: $secondary-color;
+  }
+}
+
+footer {
+  img {
+    height: 60px;
+  }
+}
+
+.how-it-works {
+  img {
+    height: 165px;
+  }
+}
+
+.white-background {
+  background-color: white;
+}
+
+.language-icon-padding-margin {
+  box-sizing: border-box;
+  padding: 18px;
+  margin: 18px;
+}
+
+.box-shadow {
+  box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+.background-gradient {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.stories-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.primary-menu {
+  display: none;
+}
+
+.hamburger-menu {
+  display: block;
+}
+
+@media (min-width: map-get($sizes, 'lg')) {
+  .primary-menu {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+}

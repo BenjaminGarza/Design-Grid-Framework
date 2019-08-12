@@ -1,0 +1,28 @@
+%button {
+  padding: 1rem 3rem;
+  border-radius: 4px;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+}
+
+a {
+  &.button {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.button {
+  @extend %button;
+}
+
+.button-primary {
+  @extend %button;
+
+  background-color: $tertiary-color;
+}
+
+.button-secondary {
+  @extend %button;
+
+  background-color: $primary-color;
+}

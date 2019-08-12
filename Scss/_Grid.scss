@@ -1,0 +1,44 @@
+$columns: 12;
+$grid-colum-gap: 20px;
+$grid-row-gap: 20px;
+
+.container {
+  max-width: map-get($sizes, 'lg');
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@for $i from 1 through $columns {
+  .col-#{$i} {
+    flex: 0 0 100% / $columns * $i;
+  }
+
+  .col-offset-#{$i} {
+    margin-left: 100% / $columns * $i;
+  }
+}
+
+@each $size, $value in $sizes {
+  @media (min-width: $value) {
+    @for $i from 1 through $columns {
+      .col-#{$size}-#{$i} {
+        flex: 0 0 100% / $columns * $i;
+      }
+
+      .col-offset-#{$size}-#{$i} {
+        margin-left: 100% / $columns * $i;
+      }
+    }
+  }
+}
